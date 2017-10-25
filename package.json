@@ -1,0 +1,33 @@
+{
+  "name": "tenor-test",
+  "version": "1.0.0",
+  "description": "This is a test for tenor",
+  "main": "index.js",
+  "scripts": {
+    "start:pm2": "pm2 start processes.json",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Tenor"
+  ],
+  "author": "Ziming Zhu",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "bower": "^1.8.2",
+    "co": "^4.6.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7",
+    "pm2": "^2.7.2",
+    "promise": "^8.0.1"
+  },
+  "dependencies": {
+    "install": "^0.10.1",
+    "npm": "^5.5.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}

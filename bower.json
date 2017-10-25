@@ -1,0 +1,25 @@
+{
+  "name": "tenor-test",
+  "description": "This is a test for tenor",
+  "main": "index.js",
+  "authors": [
+    "Ziming Zhu"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Tenor"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "jquery": "^3.2.1",
+    "talker.js": "talkerjs#^1.0.1"
+  }
+}

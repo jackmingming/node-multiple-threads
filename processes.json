@@ -1,0 +1,9 @@
+{
+  "apps": [{
+    "script": "server.js",
+    "watch": ["server.js", "routes", "app"],
+    "ignore_watch": ["node_mdoules", "bower_components"],
+    "instances": "max",
+    "exec_mode": "cluster"
+  }]
+}
